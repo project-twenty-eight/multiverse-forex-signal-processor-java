@@ -5,7 +5,7 @@ import online.projecttwentyeight.universe.OptimizableTradingUniverse;
 
 public interface SimulatedAnnealingWidget<W> extends ComputationWidget {
 
-public W mutate(final W w);
+    W mutate(final W w);
 
 
     OptimizableTradingUniverse mutate();

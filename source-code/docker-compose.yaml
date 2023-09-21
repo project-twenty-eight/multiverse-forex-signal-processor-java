@@ -2,18 +2,16 @@ version: '3'
 
 services:
 
-  article-writing-magick-standard-text-api-java:
-
-    container_name: article-writing-magick-standard-text-controller-java
-
-    image: softwareshinobi/article-writing-magick-standard-text-controller-java:latest
-
-    restart: unless-stopped
-
-    ports:
-
-      - "37032:8080"
+  multiverse-forex-signal-processor:
 
     environment:
 
-      - 'article-writing-magick'
+      - 'multiverse-forex-signal-processor'
+
+    container_name: multiverse-forex-signal-processor
+
+    image: softwareshinobi/multiverse-forex-signal-processor:latest
+
+    ports:
+
+      - "8080:8080"
