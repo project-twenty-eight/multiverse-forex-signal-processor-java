@@ -4,9 +4,9 @@ services:
 
   article-writing-magick-standard-text-api-java:
 
-    container_name: article-writing-magick-standard-text-api-java
+    container_name: article-writing-magick-standard-text-controller-java
 
-    image: softwareshinobi/article-writing-magick-standard-text-api-java:latest
+    image: softwareshinobi/article-writing-magick-standard-text-controller-java:latest
 
     restart: unless-stopped
 
