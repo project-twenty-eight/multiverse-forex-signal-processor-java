@@ -1,3 +1,4 @@
+target/
 # ---> Ada
 # Object file
 *.o
